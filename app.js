@@ -24,6 +24,9 @@ quizButton.addEventListener('click', () => {
     const resultsString = `Hey ${userFirstName} ${userLastName}! You got ${correctAnswers} correct!`;
     console.log(resultsString)
 
+    hiddenDiv.textContent = resultsString;
+
+
 
 
 })
